@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+        
+        .body {
+          justify-content: center;
+          align-items: center;
+        }
+        .container {
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body
+    class="bg-gradient-to-br lg:bg-gradient-to-r h-screen lg:h-full from-emerald-400 to-pink-100 dark:bg-gradient-to-r from-emerald-400 via-indigo-500 to-pink-400"
+  >
+    <div
+      class="flex flex-row justify-between mx-5 items-center mt-[10%] lg:mt-4"
+    >
+      <div
+        class="text-black text-4xl font-normal font-[Prototype] leading-[54.20px]"
+      >
+        Hilda
+      </div>
+      <label for="toggle" class="cursor-pointer rounded-full block bg-gray-600 w-14 h-8 rounded-full">
+        <input type = "checkbox" id="toggle" class="sr-only peer"/>
+        <span class="w-7 h-8 dot absolute bg-white  rounded-full peer-checked:bg-grey-700 peer-checked:right-5 transition-all duration-500 ease-in-out" ></span>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 -960 960 960" class="moon w-7 h-8">
+          <path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg"  
+        viewBox="0 -960 960 960" 
+        class = "sun w-7 h-8 mx-8 flex justify-between ">
+        <path d="M440-800v-120h80v120h-80Zm0 760v-120h80v120h-80Zm360-400v-80h120v80H800Zm-760 0v-80h120v80H40Zm708-252-56-56 70-72 58 58-72 70ZM198-140l-58-58 72-70 56 56-70 72Zm564 0-70-72 56-56 72 70-58 58ZM212-692l-72-70 58-58 70 72-56 56Zm268 452q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Zm0-80q67 0 113.5-46.5T640-480q0-67-46.5-113.5T480-640q-67 0-113.5 46.5T320-480q0 67 46.5 113.5T480-320Zm0-160Z"/></svg>
+      </label>
+      
+    </div>
+
+    <div class="flex flex-col gap-y-32 mt-14">
+      <div class="flex flex-col gap-y-10 items-center justify-center">
+        <svg class = "mx-5"  width="73" height="70" viewBox="0 0 73 70" fill="none" xmlns="http://www.w3.org/2000/svg" >
+          <g id="Frame 1000001067" opacity="0.4">
+          <rect id="Rectangle 40062" x="0.277778" y="0.277778" width="36.6667" height="35.5556" rx="2.5" stroke="url(#paint0_linear_742_514)" stroke-width="0.555556"/>
+          <rect id="Rectangle 40063" x="72.4996" y="69.7222" width="36.6667" height="35.5556" rx="2.5" transform="rotate(180 72.4996 69.7222)" stroke="url(#paint1_linear_742_514)" stroke-width="0.555556"/>
+          </g>
+          <defs>
+          <linearGradient id="paint0_linear_742_514" x1="32.2222" y1="8.88889" x2="44.2947" y2="20.0799" gradientUnits="userSpaceOnUse">
+          <stop offset="0.0889937" stop-color="#50C499" stop-opacity="0"/>
+          <stop offset="0.41376" stop-color="#5E7EDB"/>
+          <stop offset="0.759027" stop-color="#665BFF"/>
+          <stop offset="0.997357" stop-color="#FF7EA0"/>
+          </linearGradient>
+          <linearGradient id="paint1_linear_742_514" x1="105" y1="78.8889" x2="117.072" y2="90.0799" gradientUnits="userSpaceOnUse">
+          <stop offset="0.0889937" stop-color="#50C499" stop-opacity="0"/>
+          <stop offset="0.41376" stop-color="#5E7EDB"/>
+          <stop offset="0.759027" stop-color="#665BFF"/>
+          <stop offset="0.997357" stop-color="#FF7EA0"/>
+          </linearGradient>
+          </defs>
+        </svg>
+          
+        <h2
+          class="font-extrabold text-transparent text-6xl text-center bg-clip-text bg-gradient-to-r from-emerald-400 via-indigo-500 to-pink-400 text-6xl font-semibold font-['Prototype']"
+        >
+          AI Meets Humanity
+        </h2>
+        
+        <div
+          class="text-center text-gray-700 pb-4 lg:pb-0 text-lg font-medium font-['Avenir Next LT Pro'] leading-[33.60px]"
+        >
+          Get Started
+        </div>
+        <svg width="73" height="70" viewBox="0 0 73 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="Frame 1000001067" opacity="0.4">
+          <rect id="Rectangle 40062" x="0.277778" y="0.277778" width="36.6667" height="35.5556" rx="2.5" stroke="url(#paint0_linear_742_514)" stroke-width="0.555556"/>
+          <rect id="Rectangle 40063" x="72.4996" y="69.7222" width="36.6667" height="35.5556" rx="2.5" transform="rotate(180 72.4996 69.7222)" stroke="url(#paint1_linear_742_514)" stroke-width="0.555556"/>
+          </g>
+          <defs>
+          <linearGradient id="paint0_linear_742_514" x1="32.2222" y1="8.88889" x2="44.2947" y2="20.0799" gradientUnits="userSpaceOnUse">
+          <stop offset="0.0889937" stop-color="#50C499" stop-opacity="0"/>
+          <stop offset="0.41376" stop-color="#5E7EDB"/>
+          <stop offset="0.759027" stop-color="#665BFF"/>
+          <stop offset="0.997357" stop-color="#FF7EA0"/>
+          </linearGradient>
+          <linearGradient id="paint1_linear_742_514" x1="105" y1="78.8889" x2="117.072" y2="90.0799" gradientUnits="userSpaceOnUse">
+          <stop offset="0.0889937" stop-color="#50C499" stop-opacity="0"/>
+          <stop offset="0.41376" stop-color="#5E7EDB"/>
+          <stop offset="0.759027" stop-color="#665BFF"/>
+          <stop offset="0.997357" stop-color="#FF7EA0"/>
+          </linearGradient>
+          </defs>
+          </svg>
+
+        <div
+          class="flex flex-col lg:flex-row lg:gap-x-10 gap-y-5 items-center w-full justify-center"
+        >
+          <button
+            class="w-72 h-16 px-8 py-2 bg-teal-400 rounded-full text-green-800 text-xl font-medium font-avenir transition duration-300 ease-in-out hover:bg-teal-500"
+          >
+            Sign Up
+          </button>
+
+          <button
+            class="w-72 h-16 px-8 py-2 bg-teal-400 rounded-full text-green-800 text-xl font-medium font-avenir transition duration-300 ease-in-out hover:bg-teal-500"
+          >
+            Sign In
+          </button>
+        </div>
+      </div>
+      <svg width="73" height="70" viewBox="0 0 73 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Frame 1000001067" opacity="0.4">
+        <rect id="Rectangle 40062" x="0.277778" y="0.277778" width="36.6667" height="35.5556" rx="2.5" stroke="url(#paint0_linear_742_514)" stroke-width="0.555556"/>
+        <rect id="Rectangle 40063" x="72.4996" y="69.7222" width="36.6667" height="35.5556" rx="2.5" transform="rotate(180 72.4996 69.7222)" stroke="url(#paint1_linear_742_514)" stroke-width="0.555556"/>
+        </g>
+        <defs>
+        <linearGradient id="paint0_linear_742_514" x1="32.2222" y1="8.88889" x2="44.2947" y2="20.0799" gradientUnits="userSpaceOnUse">
+        <stop offset="0.0889937" stop-color="#50C499" stop-opacity="0"/>
+        <stop offset="0.41376" stop-color="#5E7EDB"/>
+        <stop offset="0.759027" stop-color="#665BFF"/>
+        <stop offset="0.997357" stop-color="#FF7EA0"/>
+        </linearGradient>
+        <linearGradient id="paint1_linear_742_514" x1="105" y1="78.8889" x2="117.072" y2="90.0799" gradientUnits="userSpaceOnUse">
+        <stop offset="0.0889937" stop-color="#50C499" stop-opacity="0"/>
+        <stop offset="0.41376" stop-color="#5E7EDB"/>
+        <stop offset="0.759027" stop-color="#665BFF"/>
+        <stop offset="0.997357" stop-color="#FF7EA0"/>
+        </linearGradient>
+        </defs>
+        </svg>
+      <div class="w-full flex flex-row justify-center items-center">
+        <div class="text-2xl text-zinc-400 font-normal">By: </div>
+        <img class="w-[71.08px] h-14" src="../src/image 6.png" />
+        <div class="text-black text-3xl font-normal font-['Prototype']">
+          Vault Hill
+        </div>
+      </div>
+    </div>
+    <script>
+      const checkbox = document.querySelector("#toggle");
+      const html = document.querySelector("html");
+
+      const toggleDarkMode = function () {
+        checkbox.Checked
+        ? html.classList.add("dark")
+        :html.classList.remove("dark");
+      }
+      toggleDarkMode();
+      checkbox.addEventListener("click", toggleDarkMode);
+    </script>
+  </body>
+</html>
